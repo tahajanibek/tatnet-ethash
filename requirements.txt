@@ -1,0 +1,13 @@
+ecdsa
+bip_utils
+hash_lib
+eth_keys
+eth_utils
+eth_account
+cryptography
+mnemonic
+colorama
+pyfiglet
+termcolor
+requests
+qrcode
