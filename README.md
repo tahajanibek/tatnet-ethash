@@ -194,7 +194,7 @@ Yazılımların kullanımı, tamamen yerel bir ortamda gerçekleşir ve internet
 Yazılımların sağladığı çıktıların güvenliği ve gizliliği tamamen kullanıcının sorumluluğundadır. Özel anahtarların güvenli bir şekilde saklanması ve başkalarıyla paylaşılmaması önemlidir.
 
 
-`Bilmediğiniz programlar yüklüyorsanız ve sisteminizin güvenliğinden şüphe ediyorsanız bu yazılımların üreteceği Genel Anahtarlar, Özel Anahtarlar veya Mnemonic'lerin yazıldığı (md, txt, json) gibi dosyalarını lokalde (yerel dosyalarınızda) tutmamanız sizin açınızdan sağlıklı olur ve şiddetle tavsiye edilir, eğer finansal olarak yada olmayarak kullanacaksanız, ayrıca ne yaptığınızı biliyorsanız veya bilmiyor olsanız dahi sorumluluk size aittir. 
+`Bilmediğiniz programlar yüklüyorsanız ve sisteminizin güvenliğinden şüphe ediyorsanız bu yazılımların üreteceği Genel Anahtarlar, Özel Anahtarlar veya Mnemonic'lerin yazıldığı (md, txt, json) gibi dosyaları lokalde (yerel dosyalarınızda) tutmamanız sizin açınızdan sağlıklı olur ve şiddetle tavsiye edilir, eğer finansal olarak yada olmayarak kullanacaksanız, ayrıca ne yaptığınızı biliyorsanız veya bilmiyor olsanız dahi sorumluluk size aittir. 
 Araç, hem eğitim hem de ileri düzey kullanıcılar için kriptografik yapıların nasıl çalıştığını göstermek amacıyla tasarlanmıştır.`
 
 
