@@ -10,3 +10,4 @@ pyfiglet
 termcolor
 requests
 qrcode
+Pillow
