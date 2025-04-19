@@ -44,7 +44,7 @@ Başlangıçta temalı bir giriş animasyonu göreceksiniz, isim girmeniz isteni
 - Linux, Windows, macOS
 
 
-## Linux için gerekli kütüphaneler ve bağımlılıklar:
+## 🐧 Linux için gerekli kütüphaneler ve bağımlılıklar:
 ````
 python3-dev build-base libffi-dev openssl-dev cargo libjpeg-turbo-dev zlib-dev
 
@@ -96,7 +96,7 @@ brew install libffi openssl jpeg zlib
 ````
 
 
-## Windows 10/11 
+## 🪟 Windows 10/11 
 
 #### 1. Microsoft C++ Build Tools
 Bazı Python modülleri (ed25519-blake2b, cryptography gibi) C dilinde yazıldığı için derleme sırasında `C++` derleyicisine ihtiyaç duyar.
