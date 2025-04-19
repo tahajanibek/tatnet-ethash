@@ -43,12 +43,98 @@ Başlangıçta temalı bir giriş animasyonu göreceksiniz, isim girmeniz isteni
 - Uçbirim (Terminal/Konsol)  
 - Linux, Windows, macOS
 
-##### Gerekli kütüphanelerin yüklenebilmesi için komut:
+
+## Linux için gerekli kütüphaneler ve bağımlılıklar:
+````
+python3-dev build-base libffi-dev openssl-dev cargo libjpeg-turbo-dev zlib-dev
+
+Python geliştirici araçları (python3-dev)
+
+Derleyici araçları (build-base)
+
+Şifreleme kütüphaneleri (libffi-dev, openssl-dev)
+
+QR kodları için resim işleme kütüphaneleri (libjpeg-turbo-dev, zlib-dev)
+````
+*Not: Genel olarak bunlar gerekli*
+
+##### *Debian tabanlı sistemler*
+````
+sudo apt update
+sudo apt install python3-dev build-essential libffi-dev libssl-dev libjpeg-dev zlib1g-dev
+````
+
+##### *Red Hat/RPM tabanlı sistemler için(Fedora)*
+````
+sudo dnf update
+sudo dnf install python3-devel gcc libffi-devel openssl-devel libjpeg-devel zlib-devel
+````
+
+##### *Alpine Linux/APK tabanlı sistemler için*
+````
+su apk update
+su apk add python3-dev build-base libffi-dev openssl-dev cargo libjpeg-turbo-dev zlib-dev
+````
+
+##### *Arch tabanlı sistemler için*
+````
+sudo pacman -S python-dev gcc libffi openssl libjpeg zlib
+````
+
+##### *openSUSE/zypper Tabanlı sistemler*
+````
+sudo zypper install python3-devel gcc libffi-devel libopenssl-devel libjpeg8-devel zlib-devel
+````
+
+
+##  macOS için
+
+````
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install python
+brew install libffi openssl jpeg zlib
+````
+
+
+## Windows 10/11 
+
+#### 1. Microsoft C++ Build Tools
+Bazı Python modülleri (ed25519-blake2b, cryptography gibi) C dilinde yazıldığı için derleme sırasında `C++` derleyicisine ihtiyaç duyar.
+
+pip ve Python 3.10 üstü. Python yüklerken `Add Python to PATH` seçeneği mutlaka işaretli olmalı.
+
+##### *Kurulum:*
+[Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) adresine git 
+    
+"Download Build Tools" butonuna tıkla.
+
+Kurulum sırasında aşağıdaki bileşenleri seç:
+``C++ build tools``
+
+Windows 10 SDK (varsayılan)
+
+Kurulumu tamamla ve bilgisayarı yeniden başlat.
+
+sonra:
+````
+pip install --upgrade pip setuptools wheel
+````
+
+-----
+
+
+
+
+### Gerekli kütüphanelerin yüklenebilmesi için komut:
+
 ```bash
 pip3 install -r requirements.txt
 ```
 
----
+
+
+----
+
 
 ## 🔐 TatNet Brute Force Aracı `(ethashbarut.py)`
 
@@ -176,7 +262,8 @@ Hem teorik olarak öğrenim sağlamak, hem de CLI cüzdan altyapısı oluşturma
     adresinden ulaşabilirsiniz.
 
 *NOT: Bu Türkçe çeviri, bilgilendirme amaçlıdır. Yasal bağlayıcılığı olan
-sürüm, İngilizce olan `LICENSE` dosyası asılıdır, ayrıca buradan da göz atabilirsiniz:
+sürüm, İngilizce olan `LICENSE` dosyası aslıdır, ayrıca buradan da göz atabilirsiniz: [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html)
+
 Bu proje, [GNU Genel Kamu Lisansı v3](LICENSE) ile lisanslanmıştır.
 
 ---
@@ -194,7 +281,7 @@ Yazılımların kullanımı, tamamen yerel bir ortamda gerçekleşir ve internet
 Yazılımların sağladığı çıktıların güvenliği ve gizliliği tamamen kullanıcının sorumluluğundadır. Özel anahtarların güvenli bir şekilde saklanması ve başkalarıyla paylaşılmaması önemlidir.
 
 
-`Bilmediğiniz programlar yüklüyorsanız ve sisteminizin güvenliğinden şüphe ediyorsanız bu yazılımların üreteceği Genel Anahtarlar, Özel Anahtarlar veya Mnemonic'lerin yazıldığı (md, txt, json) gibi dosyaları lokalde (yerel dosyalarınızda) tutmamanız sizin açınızdan sağlıklı olur ve şiddetle tavsiye edilir, eğer finansal olarak yada olmayarak kullanacaksanız, ayrıca ne yaptığınızı biliyorsanız veya bilmiyor olsanız dahi sorumluluk size aittir. 
+`Bilmediğiniz programlar yüklüyorsanız ve sisteminizin güvenliğinden şüphe ediyorsanız bu yazılımların üreteceği Genel Anahtarlar, Özel Anahtarlar veya Mnemonic'lerin yazıldığı (md, txt, json) gibi dosyaları lokalde (yerel dosyalarınızda) tutmamanız sizin açınızdan sağlıklı olur ve lokalde tutmamanız şiddetle tavsiye edilir, eğer finansal olarak yada olmayarak kullanacaksanız, ayrıca ne yaptığınızı biliyorsanız veya bilmiyor olsanız dahi sorumluluk size aittir. 
 Araç, hem eğitim hem de ileri düzey kullanıcılar için kriptografik yapıların nasıl çalıştığını göstermek amacıyla tasarlanmıştır.`
 
 
