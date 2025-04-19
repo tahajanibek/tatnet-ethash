@@ -86,7 +86,7 @@ def brute_force(target_address):
 # "burası değiştirilebilir"
 target_address = input("Genel Adres girin >>> ").strip()
 
-# direk bir adrese odaklamak istiyorsanız hemen attakinin "..." olan yere adresi yazın, ve başındaki # sembolünü kaldırın, üstekinin başına # koyun. :) <3
+# direk bir adrese odaklamak istiyorsanız hemen alttakinin "..." olan yere adresi yazın, ve başındaki # sembolünü kaldırın, üstekinin başına # koyun. :) <3
 #target_address = bytes.fromhex("adres girilebilir".replace("0x", "")) 
 
 brute_force(target_address)
