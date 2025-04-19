@@ -19,8 +19,8 @@
 ### 🖥️ Kurulum
 
 ```bash
-git clone https://github.com/tatnet/tatnet-wallet.git
-cd tatnet-wallet
+[git clone https://github.com/tatnet/tatnet-wallet.git](https://github.com/tahajanibek/tatnet-ethash.git)
+cd tatnet-ethash
 pip3 install -r requirements.txt
 python3 eth_keygen.py
 ```
