@@ -1,6 +1,6 @@
 ecdsa
 bip_utils
-hash_lib
+hashlib
 eth_keys
 eth_utils
 eth_account
