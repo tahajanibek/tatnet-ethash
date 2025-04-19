@@ -177,7 +177,7 @@ Hem teorik olarak öğrenim sağlamak, hem de CLI cüzdan altyapısı oluşturma
 
 *NOT: Bu Türkçe çeviri, bilgilendirme amaçlıdır. Yasal bağlayıcılığı olan
 sürüm, İngilizce olan `LICENSE` dosyası asılıdır, ayrıca buradan da göz atabilirsiniz:
-Bu proje, [GNU Genel Kamu Lisansı v3](LICENSE.md) ile lisanslanmıştır.
+Bu proje, [GNU Genel Kamu Lisansı v3](LICENSE) ile lisanslanmıştır.
 
 ---
 
