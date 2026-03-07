@@ -1,4 +1,4 @@
-# TatNet-Ethash; 
+# TatNet-Ethash ![Python](https://img.shields.io/badge/Python-3.11-green)
 
 ## 1. Ethereum & EVM Blokzincirleri için Cüzdan Oluşturucu MK1 `(eth_keygen.py)`
 
@@ -37,7 +37,7 @@ Başlangıçta temalı bir giriş animasyonu göreceksiniz, isim girmeniz isteni
 
 ---
 
-### 📦 Gereksinimler
+### 📦 Gereksinimler ![Platform](https://img.shields.io/badge/Platform-Linux%2FmacOS%2FWindows%2FTermux-blue)
 
 - Python 3.10 veya üzeri  
 - Uçbirim (Terminal/Konsol)  
@@ -236,7 +236,7 @@ Hem teorik olarak öğrenim sağlamak, hem de CLI cüzdan altyapısı oluşturma
 
 ---
 
-# 📜 Lisans
+# 📜 Lisans ![License](https://img.shields.io/badge/License-GNU--GPLv3-red)
 
                   GNU GENEL KAMU LİSANSI
                   Sürüm 3, 29 Haziran 2007
