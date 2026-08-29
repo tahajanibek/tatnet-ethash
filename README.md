@@ -243,7 +243,7 @@ Hem teorik olarak öğrenim sağlamak, hem de CLI cüzdan altyapısı oluşturma
                        
     Copyright(C) 2007 Özgür Yazılım Vakfı, Inc. <https://fsf.org/>      
     Copyright(C) 2025 Taha Janibek
-    Copyright(C) 2025 TatNet
+    Copyright(C) 2025 Eklipse
  
     Bu "TatNet" ve ürettiği ilgili tüm betikler (ethashbarut.py, eth_keygen.py, 
     memonik.py) aşağıdaki şartlarla lisanslanmıştır:
@@ -289,5 +289,5 @@ Araç, hem eğitim hem de ileri düzey kullanıcılar için kriptografik yapıla
 
 ## 👤 Geliştirici
 
-**Taha Janibek / TatNet**  
+**Taha Janibek / Eklipse**  
 📧 tahajanibek@mail.ru  
